@@ -2,6 +2,27 @@ form{
     width:100%;
     font-size:1.9rem;
 }
+input{
+width:46%;
+display:block;
+padding:1rem;
+font-size:1.4rem;
+}
 button{
+    display:block;
+    margin-top:1rem;
+    font-size : 1.2rem;
     cursor : pointer;
+    border-radius: 1.4rem;
+    width: 46%;
+    padding:1.2rem;
+}
+.get,.post{
+    width:50%
+}
+
+.Method{
+    display:flex;
+    flex-direction:row;
+   
 }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+    <div class="Method">
+
+    <div class="get">
+        <h1>Get Method</h1>
+    <form action="formexample.php" method = "get">
+        <label for = "getName">Enter your Name:</label>
+        <input type="text" name="gName" id="getName">
+
+        
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<div class="post">
+    <h1>Post Method</h1>
+    <form action="formexample.php" method = "post">
+        <label for = "postName">Enter your Name</label>
+        <input type="text" name="pName" id="postName">
+        <label for = "postContact">Enter your Contacts:</label>
+        <input type="text" name="pContact" id="postContact">
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</div>
+</body>
+</html>
